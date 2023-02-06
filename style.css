@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Kaushan+Script&family=Lobster&family=Righteous&family=Sarala&display=swap');
+/* <--Fonts-->
+font-family: 'Explora', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: none;
+    background: none;
+}
+
+/*--CORPO--*/
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 15.00%, #8E5D52 85.00%);
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+/*--HEADER--*/
+.cabecalho {
+    display: flex;
+    flex-direction: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 34px;
+}
+
+#cabecalho-LogoMarca {
+    float: left;
+}
+
+/*--HEADER-MENU--*/
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+    background: linear-gradient(#2F2325 15.00%, #8E5D52 15.00%);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/*--HEADER MENU SEGUNDA COR--*/
+#cabecalho-menu-item:hover {
+    text-decoration: underline black;
+    color: #f28233;
+    cursor: pointer;
+}
+
+/*--SEGUNDA PARTE CABEÇALHO--*/
+.cabecalho-menu-abaixo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Sarala', sans-serif;
+    color: #f28233;
+    font-weight: 400;
+    font-size: 22px;
+    background: rgba(23, 214, 228, 0.836);
+    padding-left: 20%;
+    gap: 5px;
+    box-shadow: 10px 10px 40px 40px #00000056;
+}
+
+
+/*--SEGUNDA PARTE ESTILIZAÇÃO--*/
+#cabecalho-menu-item-abaixo:hover {
+    text-decoration: underline black;
+    cursor: pointer;
+    color: #f8f8f8;
+}
+
+/*--IMAGEM PRINCIPAL DO CORPO--*/
+.principal-imagem {
+    box-shadow: 0px 10px 40px #00000056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*--PRIMEIRO TITULO--*/
+.corpo-principal-titulo-mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Explora', cursive;
+    color: whitesmoke;
+    font-weight: 400px;
+    font-size: 34px;
+}
+
+/*--TEXTO ABAIXO DO TITULO--*/
+#principal-texto-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+/*--SEGUNDO TITULO--*/
+.subtitulo-sorvetes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Explora', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+/*--BOTAO COMPRE AQUI--*/
+.compre-aqui-produtos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: none;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+}
+
+/*--BOTAO COMPRE AQUI--*/
+#compre-aqui-botao {
+    padding: 16px;
+    margin: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: #f28233;
+    color: #2F2325;
+}
+
+/*--BOTAO COMPRE AQUI ESTILIZAÇÃO--*/
+#compre-aqui-botao:hover {
+    background: rgb(224, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+/*--TEXTO PRODUTOS--*/
+#produtos {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/*--SESSÃO PRODUTOS-VENDA--*/
+.produtos-venda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 30px;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+/*--SESSÃO PRODUTOS-VENDA-NOME TAG (P)--*/
+#produtos-venda-nome {
+    margin: 44px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/*--ESTILIZAÇÃO SESSÃO PRODUTOS-VENDA-NOME TAG(P)-*/
+#produtos-venda-nome:hover {
+    background: rgb(0, 183, 255);
+    padding: 10px;
+    border: 5px;
+    border-radius: 10px;
+}
+
+/*--SESSÃO BOTAO-MOSTRE-MAIS--*/
+.botao-mostre-mais {
+    display: flex;
+    justify-content: center;
+}
+
+/*--TEXTO SESSÃO MOSTRE-MAIS-BOTAO--*/
+#mostre-mais-botao {
+    padding: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 50px;
+    background: #f28233;
+}
+
+/*--ESTILIZAÇÃO SESSÃO MOSTRE-ME-MAIS-BOTAO--*/
+#mostre-mais-botao:hover {
+    background: rgb(224, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+/*--RODAPÉ PARTE DE CIMA (MENU)--*/
+.rodape-principal-cima {
+    display: flex;
+    justify-content: center;
+    border-top: 0.4px solid #ac9b8d94;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+/*--ESTILIZAÇÃO RODAPÉ PARTE DE CIMA--*/
+#rodape-menu-item:hover {
+    text-decoration: underline wavy #f28233;
+    color: rgb(231, 235, 235);
+}
+
+/*--REDES SOCIAIS-IMAGEM--*/
+.rodape-redes-sociais {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    gap: 32px;
+    box-shadow: 10px 10px 30px 30px #00000056;
+}
+/*--RODAPÉ PARTE ABAIXO--*/
+.rodape-sub-abaixo {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 40px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*--ESTILIZAÇÃO RODAPÉ PARTE ITEM--*/
+#rodape-sub-item:hover {
+    text-decoration: underline wavy #f28233;
+}
+
+/*--RODAPE-SUB-ITEM(5)--*/
+#rodape-sub-item5 {
+    display: flex;
+    justify-content: center;
+    float: right;
+    background: #f28233;
+
+}
+/*--LIBRAS-ATENDIMENTO-IMAGEM--*/
+.libras-atendimento-imagem {
+    display: flex;
+    justify-content: center;
+    background: #f28233;
+    margin: auto;
+    padding: 10px;
+    gap: 5px;
+    text-transform: uppercase;
+    border: 3px solid black;
+    width: 300px;
+    cursor: pointer;
+}
+/*--ESTILIZAÇÃO RODAPÉ PARTE ITEM--*/
+.libras-atendimento-imagem:hover {
+    background: rgb(224, 5, 5);
+    color: whitesmoke;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+/*--LOGOTIPO-INFERIOR|DIREITOS-AUTORAIS*/
+.logo-direitos-autorais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    color: whitesmoke;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+@media (max-width:999px){
+    .cabecalho{
+        flex-direction: column;
+        position: absolute;
+    }
+
+@media (max-width:999px){
+    #cabecalho-LogoMarca{
+        display: none;
+    }
+
+}
+
+.body-corpo{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+}
+}
